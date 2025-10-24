@@ -6,23 +6,24 @@ With `sphinx_toolbox` enabled:
 
 ![](with-toolbox.png)
 
-Notice that `elephant` has the wrong amount of indentation.
+Several properties have the wrong level of indentation. This doesn't happen if we use `literalinclude` to include the YAML data from a file.
 
-Source:
+reST source:
 
 ```rst
 .. code-block:: yaml
 
-   ape:
-     bear:
-       cat:
-         - dog
-           elephant
-
-.. code-block:: yaml
-
-   frog:
-     goat:
-       - hedgehog
-         ibex
+    ape:
+      bear:
+        cat:
+          - dog: Bingo
+            elephant: Dumbo
+        frog:
+          giraffe:
+            - hedgehog: Spike
+              ibex: Ike
+          jaguar:
+            koala:
+              - llama: Larry
+                moose: Molly
 ```

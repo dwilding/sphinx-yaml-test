@@ -6,17 +6,25 @@
 sphinx-yaml-test documentation
 ==============================
 
-.. code-block:: yaml
-
-   ape:
-     bear:
-       cat:
-         - dog
-           elephant
+YAML in ``index.rst``:
 
 .. code-block:: yaml
 
-   frog:
-     goat:
-       - hedgehog
-         ibex
+    ape:
+      bear:
+        cat:
+          - dog: Bingo
+            elephant: Dumbo
+        frog:
+          giraffe:
+            - hedgehog: Spike
+              ibex: Ike
+          jaguar:
+            koala:
+              - llama: Larry
+                moose: Molly
+
+YAML included from ``animals.yaml``:
+
+.. literalinclude:: animals.yaml
+    :language: yaml

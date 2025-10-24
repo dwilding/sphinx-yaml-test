@@ -1,0 +1,13 @@
+ape:
+  bear:
+    cat:
+      - dog: Bingo
+        elephant: Dumbo
+    frog:
+      giraffe:
+        - hedgehog: Spike
+          ibex: Ike
+      jaguar:
+        koala:
+          - llama: Larry
+            moose: Molly
